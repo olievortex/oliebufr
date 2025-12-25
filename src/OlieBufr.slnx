@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path=".runsettings" />
+  </Folder>
+  <Project Path="OlieBufr.Cli/OlieBufr.Cli.csproj" Id="2cd31f7a-ffd9-4e4c-8966-463e9d0a4622" />
+  <Project Path="OlieBufr.Lib/OlieBufr.Lib.csproj" Id="e2ab161d-0aed-4da4-84bf-9e7d71c70b7e" />
+  <Project Path="OlieBufr.Tests/OlieBufr.Tests.csproj" Id="0d99f418-4254-48d4-bea1-bd9790c38fbf" />
+</Solution>
