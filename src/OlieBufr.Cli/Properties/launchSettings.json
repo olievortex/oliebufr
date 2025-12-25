@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "OlieBufr.Cli": {
+      "commandName": "Project",
+      "commandLineArgs": "Samples/14918_2025011412"
+    }
+  }
+}

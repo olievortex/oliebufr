@@ -1,0 +1,110 @@
+Id,Name,Type,Scale,Offset,Width,Units,Description
+0-00-001,TABLAE,0,0,0,24,String,Table A
+0-00-002,TABLAD1,0,0,0,256,String,"Table A: data category description, line 1"
+0-00-003,TABLAD2,0,0,0,256,String,"Table A: data category description, line 2"
+0-00-010,FDESC,0,0,0,8,String,F descriptor to be added or defined
+0-00-011,XDESC,0,0,0,16,String,X descriptor to be added or defined
+0-00-012,YDESC,0,0,0,24,String,Y descriptor to be added or defined
+0-00-013,ELEMNA1,0,0,0,256,String,"Element name, line 1"
+0-00-014,ELEMNA2,0,0,0,256,String,"Element name, line 2"
+0-00-015,UNITSNA,0,0,0,192,String,Units name
+0-00-016,SCALESG,0,0,0,8,String,Units scale sign
+0-00-017,SCALEU,0,0,0,24,String,Units scale
+0-00-018,REFERSG,0,0,0,8,String,Units reference sign
+0-00-019,REFERVA,0,0,0,80,String,Units reference value
+0-00-020,ELEMDWD,0,0,0,24,String,Element data width
+0-00-030,DDSEQ,0,0,0,48,String,Descriptor defining sequence
+0-01-001,WMOB,2,0,0,7,Numeric,WMO block number
+0-01-002,WMOS,2,0,0,10,Numeric,WMO station number
+0-01-011,SMID,0,0,0,72,String,Ship or mobile land station identifier
+0-01-018,SSTN,0,0,0,40,String,Short station or site name
+0-01-062,ICLX,0,0,0,32,String,Short ICAO location indicator
+0-01-081,RSERL,0,0,0,160,String,Radiosonde serial number
+0-01-082,RASCN,2,0,0,14,Numeric,Radiosonde ascension number
+0-01-083,RRLSE,2,0,0,3,Numeric,Radiosonde release number
+0-01-093,BLOTN,0,0,0,96,String,Balloon lot number
+0-01-094,WBAN,2,0,0,17,Numeric,WBAN number
+0-01-095,OBSVR,0,0,0,32,String,Observer identification
+0-02-003,A4ME,1,0,0,4,Code table,Type of measuring equipment used
+0-02-011,RATP,1,0,0,8,Code table,Radiosonde type
+0-02-013,SIRC,1,0,0,4,Code table,Solar and infrared radiation correction
+0-02-014,TTSS,1,0,0,7,Code table,Tracking technique/status of system used
+0-02-016,RCONF,1,0,0,5,Code table,Radiosonde configuration
+0-02-017,CAHM,1,0,0,5,Code table,Correction algorithms for humidity measurements
+0-02-066,RGRSY,1,0,0,6,Code table,Radiosonde ground receiving system
+0-02-067,RFREQ,2,-5,0,15,Hz,Radiosonde operating frequency
+0-02-080,BMFGR,1,0,0,6,Code table,Balloon manufacturer
+0-02-081,BTYPE,1,0,0,5,Code table,Type of balloon
+0-02-082,BWGHT,2,3,0,12,kg,Weight of balloon
+0-02-083,BSHEL,1,0,0,4,Code table,Type of balloon shelter
+0-02-084,BGTYP,1,0,0,4,Code table,Type of gas used in balloon
+0-02-085,BGAMT,2,3,0,13,kg,Amount of gas used in ballon
+0-02-086,BFTLN,2,1,0,10,m,Balloon flight train length
+0-02-095,PSENS,1,0,0,5,Code table,Type of pressure sensor
+0-02-096,TSENS,1,0,0,5,Code table,Type of temperature sensor
+0-02-097,RHSENS,1,0,0,5,Code table,Type of humidity sensor
+0-02-115,SFEQP,1,0,0,5,Code table,Type of surface observing equipment
+0-02-191,GHTC,1,0,0,4,Code table,Geopotential height calculation
+0-04-001,YEAR,2,0,0,12,Year,Year
+0-04-002,MNTH,2,0,0,4,Month,Month
+0-04-003,DAYS,2,0,0,6,Day,Day
+0-04-004,HOUR,2,0,0,5,Hour,Hour
+0-04-005,MINU,2,0,0,6,Minute,Minute
+0-04-006,SECO,2,0,0,6,s,Second
+0-04-024,TPHR,2,0,-2048,12,Hour,Time period or displacement
+0-04-025,TPMI,2,0,-2048,12,Minute,Time period or displacement
+0-04-026,TPSE,2,0,-4096,13,s,Time period or displacement
+0-04-086,LTDS,2,0,-8192,15,s,Long time period or displacement
+0-05-001,CLATH,2,5,-9000000,25,Degree,Latitude (high accuracy)
+0-05-015,LATHD,2,5,-9000000,25,Degree,Latitude displacement (high accuracy)
+0-05-021,BEARAZ,2,2,0,16,Degree true,Bearing or azimuth
+0-06-001,CLONH,2,5,-18000000,26,Degree,Longitude (high accuracy)
+0-06-015,LONDH,2,5,-18000000,26,Degree,Longitude displacement (high accuracy)
+0-06-021,DIST,2,-1,0,13,m,Distance
+0-07-004,PRLC,2,-1,0,14,Pa,Pressure
+0-07-005,HINC,2,0,-400,12,m,Height increment
+0-07-007,HEIT,2,0,-1000,17,m,Height
+0-07-030,HSMSL,2,1,-4000,17,m,Height of station ground above mean sea level
+0-07-031,HBMSL,2,1,-4000,17,m,Height of barometer above mean sea level
+0-08-002,VSSO,1,0,0,6,Code table,Vertical significance (surface observations)
+0-08-021,TSIG,1,0,0,5,Code table,Time significance
+0-08-040,LEVSIG,1,0,0,6,Code table,Flight level significance
+0-08-041,DATSIG,1,0,0,5,Code table,Data significance
+0-08-042,VSIGX,1,0,0,18,Code table,Extended vertical sounding significance
+0-10-004,PRES,2,-1,0,14,Pa,Pressure
+0-10-007,HGHT,2,0,-1000,17,m,Height
+0-10-009,GPH10,2,0,-1000,17,gpm,Geopotential height
+0-11-001,WDIR,2,0,0,9,Degree true,Wind direction
+0-11-002,WSPD,2,1,0,12,m/s,Wind speed
+0-11-003,UWND,2,1,-4096,13,m/s,u-component
+0-11-004,VWND,2,1,-4096,13,m/s,v-component
+0-11-044,MWDL,2,0,0,9,Degree true,Mean wind direction for surface - 1500m (5000 feet)
+0-11-045,MWSL,2,1,0,12,m/s,Mean wind speed for surface - 1500m (5000 feet)
+0-11-054,MWDIRL,2,0,0,9,Degree true,Mean wind direction for 1500 - 3000m
+0-11-055,MWSPDL,2,1,0,12,m/s,Mean wind speed for 1500 - 3000m
+0-11-061,AWSB,2,1,0,12,m/s,Absolute wind shear in 1 km layer below
+0-11-062,AWSA,2,1,0,12,m/s,Absolute wind shear in 1 km layer above
+0-12-101,TMDB,2,2,0,16,K,Temperature/air temperature
+0-12-102,TMWB,2,2,0,16,K,Wet-bulb temperature
+0-12-103,TMDP,2,2,0,16,K,Dewpoint temperature
+0-13-001,SPFH,2,5,0,14,kg/kg,Specific humidity
+0-13-003,REHU,2,0,0,7,%,Relative humidity
+0-13-009,RAWHU,2,1,-1000,12,%,Relative humidity
+0-13-047,STBS,2,0,-60,6,K,Modified Showalter stability index
+0-20-003,PRWE,1,0,0,9,Code table,Present weather
+0-20-011,CLAM,1,0,0,4,Code table,Cloud amount
+0-20-012,CLTP,1,0,0,6,Code table,Cloud type
+0-20-013,HOCB,2,-1,-40,11,m,Height of base of cloud
+0-22-043,SST1,2,2,0,15,K,Sea/water temperature
+0-25-061,SOFTV,0,0,0,96,String,Software identification and version number
+0-25-065,ORCRAZ,2,2,-1000,11,Degree,Orientation correction (azimuth)
+0-25-066,ORCREL,2,2,-1000,11,Degree,Orientation correction (elevation)
+0-25-067,RRPPC,2,0,-8000,14,Pa,Radiosonde release point pressure correction
+0-25-068,ARRE,2,0,0,7,Numeric,Number of archive recomputes
+0-25-069,FLPC,1,0,0,8,Flag table,Flight level pressure corrections
+0-31-001,DRF8BIT,2,0,0,8,Numeric,Delayed descriptor replication factor
+0-33-007,PCCF,2,0,0,7,%,Percent confidence
+0-33-015,QCCHEK,1,0,0,6,Code table,Data quality-check indicator
+0-33-024,QCEVR,1,0,0,4,Code table,Station elevation quality mark (for mobile stations)
+0-33-035,MAQC,1,0,0,4,Code table,Manual/automatic quality control
+0-35-035,RTERM,1,0,0,5,Code table,Reason for termination
